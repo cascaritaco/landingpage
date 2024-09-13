@@ -155,6 +155,10 @@ p.lead {
   padding: 80px 0;
 }
 
+.app-launch-section {
+  background-color: lavender;
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 3rem;
@@ -162,6 +166,31 @@ p.lead {
 
 .section-title small {
   color: #998a9b;
+}
+
+.screenshot {
+  border-radius: 8px;
+  width: 450px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.text-color-dark {
+  color: #454545;
+}
+
+.form-section-color {
+  background-color: #ccccfa;
+}
+
+.mgb-8 {
+  margin-bottom: 16px;
+}
+
+.pad-bot-32 {
+  padding-bottom: 32px;
 }
 
 @media (max-width: 767px) {
@@ -252,6 +281,10 @@ header {
   color: #ffb8f6;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.img-app-section {
+  border-radius: 8px;
 }
 
 .img-holder {
@@ -379,14 +412,25 @@ header {
   border-bottom: 1px solid #f8e3f0;
 }
 
-.perspective-phone {
-  position: relative;
-  z-index: -1;
+.form-img {
+  max-width: 100%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 992px) {
-  .perspective-phone {
+  .form-img {
     margin-top: -150px;
+  }
+}
+
+@media (max-width: 766px) {
+  .form-container {
+    flex-direction: column;
   }
 }
 
