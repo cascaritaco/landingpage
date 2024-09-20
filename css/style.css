@@ -324,13 +324,19 @@ header {
 }
 
 .santacruzworkslogo {
-  opacity: 0.5;
+  width: 200px;
+  height: 100px;
 }
 
 .clientBackground {
-  background-color: #f4f7fb;
-  padding: 16px 0;
+  padding: 0px 16px 40px 16px;
 }
+
+.clientBackground p{
+  color: #ffb8f6;
+  font-size: .75rem;
+}
+
 
 @media (max-width: 1200px) {
   .img-holder {
