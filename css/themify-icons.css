@@ -81,7 +81,8 @@
 }
 
 .ti-settings:before {
-    content: "\e60f";
+    content: "😱";
+
 }
 
 .ti-search:before {
